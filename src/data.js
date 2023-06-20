@@ -57,17 +57,17 @@ import Agent12 from './assets/img/agents/agent12.png';
 export const housesData = [
   {
     id: 1,
-    type: 'House',
-    name: 'House 1',
+    type: 'Casa',
+    name: 'Casa 1',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
+      'Casa moderno 2023, habitaciones de lujo precio accesible se encuetra ubicada cerca de colegios, parques etc, buena inversion a largo plazo al comprar el inmueble le damos acceso a la piscina',
     image: House1,
     imageLg: House1Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '7240C Argyle St. Lawndale, CA 90260',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '390 m2',
     year: '2016',
     price: '110000',
     agent: {
@@ -78,8 +78,8 @@ export const housesData = [
   },
   {
     id: 2,
-    type: 'House',
-    name: 'House 2',
+    type: 'Casa',
+    name: 'Casa 2',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House2,
@@ -88,7 +88,7 @@ export const housesData = [
     address: '798 Talbot St. Bridgewater, NJ 08807',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '390 m2',
     year: '2016',
     price: '140000',
     agent: {
@@ -99,17 +99,17 @@ export const housesData = [
   },
   {
     id: 3,
-    type: 'House',
-    name: 'House 3',
+    type: 'Casa',
+    name: 'Casa 3',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House3,
     imageLg: House3Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '2 Glen Creek St. Alexandria, VA 22304',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '390 m2',
     year: '2016',
     price: '170000',
     agent: {
@@ -120,8 +120,8 @@ export const housesData = [
   },
   {
     id: 4,
-    type: 'House',
-    name: 'House 4',
+    type: 'Casa',
+    name: 'Casa 4',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House4,
@@ -130,7 +130,7 @@ export const housesData = [
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '6',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '390 m2',
     year: '2016',
     price: '200000',
     agent: {
@@ -141,17 +141,17 @@ export const housesData = [
   },
   {
     id: 5,
-    type: 'House',
-    name: 'House 5',
+    type: 'Casa',
+    name: 'Casa 5',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House5,
     imageLg: House5Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '5',
     bathrooms: '3',
-    surface: '4200 sq ft',
+    surface: '390 m2',
     year: '2015',
     price: '210000',
     agent: {
@@ -162,8 +162,8 @@ export const housesData = [
   },
   {
     id: 6,
-    type: 'House',
-    name: 'House 6',
+    type: 'Casa',
+    name: 'Casa 6',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House6,
@@ -183,8 +183,8 @@ export const housesData = [
   },
   {
     id: 7,
-    type: 'Apartament',
-    name: 'Apartament 1',
+    type: 'Apartamento',
+    name: 'Apartamento 1',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment1,
@@ -204,13 +204,13 @@ export const housesData = [
   },
   {
     id: 8,
-    type: 'Apartament',
-    name: 'Apartament 2',
+    type: 'Apartamento',
+    name: 'Apartamento 2',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment2,
     imageLg: Apartment2Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '3',
     bathrooms: '1',
@@ -225,13 +225,13 @@ export const housesData = [
   },
   {
     id: 9,
-    type: 'Apartament',
-    name: 'Apartament 3',
+    type: 'Apartamento',
+    name: 'Apartamento 3',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment3,
     imageLg: Apartment3Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '84 Woodland St. Cocoa, FL 32927',
     bedrooms: '2',
     bathrooms: '1',
@@ -246,8 +246,8 @@ export const housesData = [
   },
   {
     id: 10,
-    type: 'House',
-    name: 'House 7',
+    type: 'Casa',
+    name: 'Casa 7',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House7,
@@ -267,8 +267,8 @@ export const housesData = [
   },
   {
     id: 11,
-    type: 'House',
-    name: 'House 8',
+    type: 'Casa',
+    name: 'Casa 8',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House8,
@@ -288,13 +288,13 @@ export const housesData = [
   },
   {
     id: 12,
-    type: 'House',
-    name: 'House 9',
+    type: 'Casa',
+    name: 'Casa 9',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House9,
     imageLg: House9Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '2 Glen Creek St. Alexandria, VA 22304',
     bedrooms: '4',
     bathrooms: '4',
@@ -309,8 +309,8 @@ export const housesData = [
   },
   {
     id: 13,
-    type: 'House',
-    name: 'House 10',
+    type: 'Casa',
+    name: 'Casa 10',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House10,
@@ -330,13 +330,13 @@ export const housesData = [
   },
   {
     id: 14,
-    type: 'House',
-    name: 'House 11',
+    type: 'Casa',
+    name: 'Casa 11',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House11,
     imageLg: House11Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '5',
     bathrooms: '2',
@@ -351,8 +351,8 @@ export const housesData = [
   },
   {
     id: 15,
-    type: 'House',
-    name: 'House 12',
+    type: 'Casa',
+    name: 'Casa 12',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: House12,
@@ -372,8 +372,8 @@ export const housesData = [
   },
   {
     id: 16,
-    type: 'Apartament',
-    name: 'Apartament 16',
+    type: 'Apartamento',
+    name: 'Apartamento 16',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment4,
@@ -393,13 +393,13 @@ export const housesData = [
   },
   {
     id: 17,
-    type: 'Apartament',
-    name: 'Apartament 17',
+    type: 'Apartamento',
+    name: 'Apartamento 17',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment5,
     imageLg: Apartment5Lg,
-    country: 'United States',
+    country: 'Estados Unidos',
     address: '28 Westport Dr. Warminster, PA 18974',
     bedrooms: '3',
     bathrooms: '1',
@@ -414,8 +414,8 @@ export const housesData = [
   },
   {
     id: 18,
-    type: 'Apartament',
-    name: 'Apartament 18',
+    type: 'Apartamento',
+    name: 'Apartamento 18',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.',
     image: Apartment6,

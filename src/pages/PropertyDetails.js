@@ -1,4 +1,6 @@
-import React from 'react';
+
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 // import houseData
 import { housesData } from '../data';
@@ -9,11 +11,27 @@ import { BiBed, BiBath, BiArea, BiPhone } from 'react-icons/bi';
 // import link
 import { Link } from 'react-router-dom';
 
+
 const PropertyDetails = () => {
   const { id } = useParams();
   const property = housesData.find((house) => {
     return house.id === parseInt(id);
   });
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_dmh956r', 'template_2ojbtcf', form.current, 'tL9FA8X3TDAlHRt9d')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
     <div className='container mx-auto min-h-[800px] mb-14'>
@@ -63,42 +81,48 @@ const PropertyDetails = () => {
             <div>
               <div className='font-bold text-lg'>{property.agent.name}</div>
               <Link to='' className='text-violet-700 text-sm'>
-                View listings
+                Vendedores
               </Link>
             </div>
           </div>
-          <form className='flex flex-col gap-y-4'>
+          
+          <form className='flex flex-col gap-y-4' ref={form} onSubmit={sendEmail}>
             <input
               className='border border-gray-300 focus:border-violet-700 rounded w-full px-4 h-14 text-sm outline-none'
               type='text'
-              placeholder='Name*'
+              placeholder='Nombre*'
+              name="user_name"
             />
             <input
               className='border border-gray-300 focus:border-violet-700 rounded w-full px-4 h-14 text-sm outline-none'
               type='text'
               placeholder='Email*'
+              name="user_email"
             />
             <input
               className='border border-gray-300 focus:border-violet-700 rounded w-full px-4 h-14 text-sm outline-none'
               type='text'
-              placeholder='Phone*'
+              placeholder='Telefono*'
             />
             <textarea
               className='border border-gray-300 focus:border-violet-700 rounded w-full p-4 h-36 text-sm text-gray-400 outline-none resize-none'
               type='text'
-              placeholder='Message*'
-              defaultValue='Hello, I am interested in [Modern apartment]'
+              placeholder='Mensaje'
+              defaultValue='Hola estoy interesad(@), en adquirir esta propiedad'
+              name="message"
             />
             <div className='flex gap-x-2'>
               <button
                 className='bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition'
                 type='submit'
+                value="Send"
               >
-                Send message
+                Enviar mensaje
               </button>
               <button className='border border-violet-700 text-violet-700 hover:border-purple-600 hover:text-purple-600 rounded p-4 text-sm w-full transition'>
-                Call
+                LLamar
               </button>
+              
             </div>
           </form>
         </div>

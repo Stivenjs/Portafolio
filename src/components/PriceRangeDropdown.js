@@ -17,7 +17,7 @@ const PriceRangeDropdown = () => {
 
   const prices = [
     {
-      value: 'Price range (any)',
+      value: 'Rango de precio (any)',
     },
     {
       value: '100000 - 130000',
@@ -48,7 +48,7 @@ const PriceRangeDropdown = () => {
         <RiWallet3Line className='dropdown-icon-primary' />
         <div>
           <div className='text-[15px] font-medium leading-tight'>{price}</div>
-          <div className='text-[13px]'>Choose price range</div>
+          <div className='text-[13px]'>Seleccionada el rango de precio</div>
         </div>
         {isOpen ? (
           <RiArrowUpSLine className='dropdown-icon-secondary' />
