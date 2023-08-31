@@ -10,7 +10,20 @@ import { useParams } from 'react-router-dom';
 import { BiBed, BiBath, BiArea, BiPhone } from 'react-icons/bi';
 // import link
 import { Link } from 'react-router-dom';
+import swal from 'sweetalert';
 
+
+const clickItem= () => {
+  swal({
+    title: 'Contacto',
+    text: '¡Gracias por elegirnos!',
+    icon: 'success',
+    button: 'Aceptar',
+  
+  
+  })
+
+}
 
 const PropertyDetails = () => {
   const { id } = useParams();
@@ -108,7 +121,7 @@ const PropertyDetails = () => {
               className='border border-gray-300 focus:border-violet-700 rounded w-full p-4 h-36 text-sm text-gray-400 outline-none resize-none'
               type='text'
               placeholder='Mensaje'
-              defaultValue='Hola estoy interesad(@), en adquirir esta propiedad'
+              defaultValue='¡Hola estoy interesad(@), en adquirir esta propiedad!'
               name="message"
             />
             <div className='flex gap-x-2'>
@@ -116,6 +129,7 @@ const PropertyDetails = () => {
                 className='bg-violet-700 hover:bg-violet-800 text-white rounded p-4 text-sm w-full transition'
                 type='submit'
                 value="Send"
+                onClick={() => clickItem()}
               >
                 Enviar mensaje
               </button>

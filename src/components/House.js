@@ -1,6 +1,4 @@
 import React from 'react';
-
-// import icons
 import { BiBed, BiBath, BiArea } from 'react-icons/bi';
 
 const House = ({ house }) => {
